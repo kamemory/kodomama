@@ -1,0 +1,299 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: #ffffff;
+}
+
+body {
+    width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 12pt;
+}
+
+h1 {
+    font-size: 1rem;
+    border-bottom: 2px solid #ffa8aa;
+}
+
+h2 {
+    font-size: 1rem;
+    border-left: 0.75rem solid #ffa8aa;
+    border-bottom: 1px solid #ffa8aa;
+    padding-left: 0.25rem;
+}
+
+header {
+    padding: 1rem;
+    background-color: #fdeaed;
+}
+
+footer {
+    padding: 1rem;
+    background-color: #fdeaed;
+}
+
+section#main {
+    background-color: #fffafb;
+    padding: 1.25rem;
+}
+
+section#main header {
+    margin-bottom: 1rem;
+    background-color: transparent;
+    padding: 0;
+}
+
+section#main article {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+section.item article {
+    margin: 1rem;
+}
+
+a {
+    color: #ff80a2;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #f04052;
+}
+
+table {
+    width: 100%;
+    border: 1px lightgray solid;
+    border-collapse: collapse;
+}
+
+tr {
+}
+
+th {
+    border: 1px lightgray solid;
+}
+
+td {
+    border: 1px lightgray solid;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    padding-left: 0.35rem;
+    padding-right: 0.35rem;
+}
+
+ul.list {
+    list-style: none;
+}
+
+ul.flex-list {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+li {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.list-item {
+    display: flex;
+}
+
+.list-icon {
+    width: 1.5rem;
+    text-align: center;
+}
+
+ul.quiz {
+    list-style: none;
+}
+
+ul.quiz li {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul.quiz li.correct {
+    color: blue;
+}
+
+ul.quiz li.answer .fa-check {
+    color: transparent;
+}
+
+ul.quiz li.correct .fa-check {
+    color: blue !important;
+}
+
+.text-misaki {
+    color: #ff9d02;
+}
+
+.text-saya {
+    color: #008af9;
+}
+
+.text-marika {
+    color: #fe6266;
+}
+
+.fa-twitter {
+    color: #399bea;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.col {
+    width: auto;
+}
+
+.div-12 .col-1 {
+    width: 8.3333%;
+}
+
+.div-12 .col-2 {
+    width: 16.6666%;
+}
+
+.div-12 .col-3 {
+    width: 25%;
+}
+
+.div-12 .col-4 {
+    width: 33.3333%;
+}
+
+.div-12 .col-5 {
+    width: 41.6666%;
+}
+
+.div-12 .col-6 {
+    width: 50%;
+}
+
+.div-12 .col-7 {
+    width: 58.3333%;
+}
+
+.div-12 .col-8 {
+    width: 66.6666%;
+}
+
+.div-12 .col-9 {
+    width: 75%;
+}
+
+.div-12 .col-10 {
+    width: 83.3333%;
+}
+
+.div-12 .col-11 {
+    width: 91.6666%;
+}
+
+.div-12 .col-12 {
+    width: 100%;
+}
+
+
+
+.div-10 .col-1 {
+    width: 10%;
+}
+
+.div-10 .col-2 {
+    width: 20%;
+}
+
+.div-10 .col-3 {
+    width: 30%;
+}
+
+.div-10 .col-4 {
+    width: 40%;
+}
+
+.div-10 .col-5 {
+    width: 50%;
+}
+
+.div-10 .col-6 {
+    width: 60%;
+}
+
+.div-10 .col-7 {
+    width: 70%;
+}
+
+.div-10 .col-8 {
+    width: 80%;
+}
+
+.div-10 .col-9 {
+    width: 90%;
+}
+
+.div-10 .col-10 {
+    width: 100%;
+}
+
+
+
+.div-16 .col-1 {
+    width: 6.25%;
+}
+
+.div-16 .col-2 {
+    width: 12.5%;
+}
+
+.div-16 .col-3 {
+    width: 18.75%;
+}
+
+.div-16 .col-4 {
+    width: 25%;
+}
+
+.div-16 .col-8 {
+    width: 50%;
+}
+
+.div-16 .col-9 {
+    width: 56.25%;
+}
+
+.div-16 .col-10 {
+    width: 62.5%;
+}
+
+.div-16 .col-11 {
+    width: 68.75%;
+}
+
+.div-16 .col-12 {
+    width: 75%;
+}
+
+.div-16 .col-16 {
+    width: 100%;
+}
+
+
+.mx-4 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.w-50 {
+    width: 50%;
+}
